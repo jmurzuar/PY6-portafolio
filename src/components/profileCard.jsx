@@ -44,16 +44,16 @@ const ProfileCard = ({ imageUrl, name, githubUrl, websiteUrl, icons }) => {
         <h2 className="text-center text-xl font-bold">{name}</h2>
         <div className="flex justify-center mt-4 space-x-4">
           <Link href={githubUrl} passHref target="_blank" rel="noopener noreferrer">
-              <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">GitHub</button>
-        
-          </Link>
+              <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">GitHub</button>          </Link>
           <Link href={websiteUrl} passHref target="_blank" rel="noopener noreferrer">
               <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Website</button>
           </Link>
         </div>
         <div className="flex justify-center mt-4 space-x-2">
           {icons.slice(0, 6).map((icon, index) => (
-            <image key={index} src={icon} alt={`icon-${index}`} className="w-6 h-6" />
+            <div key={index} className="w-6 h-6 relative">
+              <Image src={icon} alt={`icon-${index}`} layout="fill" objectFit="contain" />
+            </div>
           ))}
         </div>
       </div>
@@ -62,4 +62,3 @@ const ProfileCard = ({ imageUrl, name, githubUrl, websiteUrl, icons }) => {
 };
 
 export default ProfileCard;
-
