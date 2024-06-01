@@ -38,6 +38,7 @@ const BackgroundPage = () => {
           alt="Background"
           layout="fill"
           objectFit="cover"
+          objectPosition="right" // align the image to the right
           quality={100}
         />
       </div>
@@ -46,7 +47,7 @@ const BackgroundPage = () => {
       <div className="relative z-10 flex items-end h-full justify-left pb-24 pl-5 pr-5 lg:pb-10 lg:justify-left lg:items-center lg:pl-10">
         <div className="bg-gray-700 bg-opacity-75 text-white p-8 rounded-lg">
           <h1 className="text-4xl font-bold">Un Profesional para tu Proyecto</h1>
-          <p className="mt-4">
+          <p className="hidden lg:block mt-4">
           &quot;La perfección es el resultado de pequeños detalles hechos bien.&quot;
             <br />
             <span className="block text-right">
