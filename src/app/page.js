@@ -47,7 +47,7 @@ const BackgroundPage = () => {
         <div className="bg-gray-700 bg-opacity-75 text-white p-8 rounded-lg">
           <h1 className="text-4xl font-bold">Un Profesional para tu Proyecto</h1>
           <p className="mt-4">
-            "La perfección es el resultado de pequeños detalles hechos bien."
+            La perfección es el resultado de pequeños detalles hechos bien.
             <br />
             <span className="block text-right">
               <strong>Michelangelo</strong>

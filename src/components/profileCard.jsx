@@ -53,7 +53,7 @@ const ProfileCard = ({ imageUrl, name, githubUrl, websiteUrl, icons }) => {
         </div>
         <div className="flex justify-center mt-4 space-x-2">
           {icons.slice(0, 6).map((icon, index) => (
-            <img key={index} src={icon} alt={`icon-${index}`} className="w-6 h-6" />
+            <image key={index} src={icon} alt={`icon-${index}`} className="w-6 h-6" />
           ))}
         </div>
       </div>
