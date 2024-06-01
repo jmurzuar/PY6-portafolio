@@ -3,7 +3,7 @@ import React from 'react';
 
 const ClientButton = ({text}) => {
   const handleClick = () => {
-    alert('Go button Clikeado!');
+    alert('Go button Clikeado2!');
   };
 
   return (
