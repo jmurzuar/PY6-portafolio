@@ -8,6 +8,9 @@ const CircleContainer = styled.div`
   position: relative;
   width: 150px;
   height: 150px;
+  &:hover .techName {
+    opacity: 1;
+  }
 `;
 
 const SvgCircle = styled.svg`
@@ -39,14 +42,26 @@ const Icon = styled.img`
   z-index: 1;
 `;
 
-const SkillProgressComponent = ({ iconUrl, percentage }) => {
+const TechName = styled.div`
+  position: absolute;
+  bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+`;
+
+const SkillProgressComponent = ({ iconUrl, percentage, techName }) => {
   const radius = 60;
   const circumference = 2 * Math.PI * radius;
   const offset = circumference - (percentage / 100) * circumference;
 
   return (
     <CircleContainer>
-      <SvgCircle>
+      <SvgCircle viewBox="0 0 150 150">
         <CircleBackground cx="75" cy="75" r={radius} />
         <CircleProgress
           cx="75"
@@ -57,6 +72,7 @@ const SkillProgressComponent = ({ iconUrl, percentage }) => {
         />
       </SvgCircle>
       <Icon src={iconUrl} alt="Icon" />
+      <TechName className="techName">{techName}</TechName>
     </CircleContainer>
   );
 };
