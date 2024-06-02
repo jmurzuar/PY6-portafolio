@@ -1,4 +1,4 @@
-![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/banner.png)
+![Esquema1](https://github.com/jmurzuar/PY6-portafolio/blob/main/public/image/banner.png)
 
 # PROYECTO 6: Portafolio
 
@@ -34,25 +34,19 @@ Este proyecto contiene los siguientes elementos:
 ## 2. Pantallas
 
 ### Pantalla de inicio
-![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/01%20pt%20main.png)
+![Esquema1](https://github.com/jmurzuar/PY6-portafolio/blob/main/public/image/pt-01%20home.png)
 
-### Pantalla catalogo de productos
-![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/02%20pt%20catalogo.png)
+### Pantalla acerca de mi
+![Esquema1](https://github.com/jmurzuar/PY6-portafolio/blob/main/public/image/pt-02%20about.png)
 
-### Pantalla detalle de producto y agregar carro
-![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/03%20pt%20detalle_producto.png)
+### Pantalla habilidades
+![Esquema1](https://github.com/jmurzuar/PY6-portafolio/blob/main/public/image/pt-03%20habilidades.png)
 
-### Pantalla detalle de compras
-![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/04%20pt%20detalle_compras.png)
+### Pantalla portafolio
+![Esquema1](https://github.com/jmurzuar/PY6-portafolio/blob/main/public/image/pt-04%20portafolio.png)
 
-### Pantalla detalle carro de compra
-![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/05%20pt%20detalle_carro.png)
-
-### Pantalla inicio de sesión y creación de cuenta
-![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/06%20pt%20iniciar_crear_cuenta.png)
-
-### Pantalla editar perfil
-![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/08%20pt%20editar_perfil.png)
+### Pantalla contacto
+![Esquema1](https://github.com/jmurzuar/PY6-portafolio/blob/main/public/image/pt-05%20contacto.png)
 
 
 [volver al índice](#ÍNDICE)
@@ -62,7 +56,7 @@ Este proyecto contiene los siguientes elementos:
 
 ## 3. Tecnologías Utilizadas
 
-![LogosPY2](https://github.com/jmurzuar/PY5-client/blob/master/public/tecnologias.png)
+![LogosPY2](https://github.com/jmurzuar/PY6-portafolio/blob/main/public/image/tecnologias.png)
 
 El objetivo principal de este proyecto fue desarrollar una aplicación con NextJS, utilizando interfaz HTML, CSS y JavaScript
 
