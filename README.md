@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/banner.png)
 
-## Getting Started
+# PROYECTO 6: Portafolio
 
-First, run the development server:
+## **ÍNDICE**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* [1. Intro](#1-intro)
+* [2. Pantallas](#2-Pantallas)
+* [3. Tecnologías Utilizadas](#3-Tecnologías-Utilizadas)
+* [4. Legal](#4-Legal)
+* [5. Despliegue](#5-Despliegue)
+  
+****
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 1. Intro
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Este proyecto está enfocado en construir una página que muestre los proyectos que se desarrollaron durante el bootcamp
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este proyecto contiene los siguientes elementos:
 
-## Learn More
+- Descripción de tu perfil profesional (tu nombre, área de contacto, redes profesionales como Linkedin o GitHub)
+- Hablar sobre tus habilidades / conocimientos, incluyendo las tecnologías que sabes (MongoDB, Express, React, Node, JavaScript, etc)
+- Aplicar en todo el sitio HTML semántico de estándar no.5 (HTML5).
+- Aplicar tipos de selectores en CSS (Si lo necesitas, puedes incluir styled components, TailwindCSS o Bootstrap también).
+- Crear un repositorio en GitHub
+- Realizar "commits" en tu repositorio, mínimo 5
+- Crear una URL para compartir (puedes utilizar Netlify o GitHub Pages)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[volver al índice](#ÍNDICE)
+****
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 2. Pantallas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Pantalla de inicio
+![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/01%20pt%20main.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Pantalla catalogo de productos
+![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/02%20pt%20catalogo.png)
+
+### Pantalla detalle de producto y agregar carro
+![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/03%20pt%20detalle_producto.png)
+
+### Pantalla detalle de compras
+![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/04%20pt%20detalle_compras.png)
+
+### Pantalla detalle carro de compra
+![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/05%20pt%20detalle_carro.png)
+
+### Pantalla inicio de sesión y creación de cuenta
+![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/06%20pt%20iniciar_crear_cuenta.png)
+
+### Pantalla editar perfil
+![Esquema1](https://github.com/jmurzuar/PY5-client/blob/master/public/08%20pt%20editar_perfil.png)
+
+
+[volver al índice](#ÍNDICE)
+****
+
+
+
+## 3. Tecnologías Utilizadas
+
+![LogosPY2](https://github.com/jmurzuar/PY5-client/blob/master/public/tecnologias.png)
+
+El objetivo principal de este proyecto fue desarrollar una aplicación con NextJS, utilizando interfaz HTML, CSS y JavaScript
+
+
+[volver al índice](#ÍNDICE)
+****
+
+
+## 4. Legal
+
+- Esta página fue creada con fines educativos, NO COMERCIAL, contiene imagenes con derechos de autor que se han utilizado solo para ejemplos
+- Página creada en el marco del Bootcamp desarrollo web full stack, corte 11 de la Universidad de Desarrrollo - Chile
+- Creado en Mayo 2024
+  
+[volver al índice](#ÍNDICE)
+****
+
+## 5. Despliegue
+
+Link al proyecto publicado en VERCEL (https://portafolio-juan-urzua.netlify.app/)
+
+[volver al índice](#ÍNDICE)
