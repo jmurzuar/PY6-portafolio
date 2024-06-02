@@ -17,10 +17,10 @@ const AboutPage = () => {
         
         <div className="lg:w-3/4 lg:ml-4 mt-4 lg:mt-0">
           <h1 className="text-2xl font-bold mb-2 text-blue-500">Sobre Mi</h1>
-          <p className="text-justify text-blue-500"><strong>Soy Juan Urzúa Retamal</strong>, Ingeniero Informático titulado el 2014, desarrollador independiente en constante búsqueda de nuevos desafios. Entiendo la tecnología como una herramienta que mejora los procesos, entregando valor al negocio y en complemento con las personas, es por ello que mi trabajo diario es buscar soluciones simples pero de alto impacto en los resultados</p>
+          <p className="text-justify text-blue-500"><strong>Soy Juan Urzúa Retamal</strong>, Ingeniero Informático titulado el 2014, desarrollador independiente en constante búsqueda de nuevos desafios. Entiendo la tecnología como una herramienta que mejora los procesos, entregando valor al negocio y siempre en complemento con las personas, es por ello que mi trabajo diario es buscar soluciones simples pero con un alto impacto en los resultados</p>
 
           <h1 className="text-2xl font-bold mt-4 text-blue-500">Experiencia y Nuevos Conocimientos</h1>
-          <p className="mb-4 text-justify text-blue-500">Tengo 30 años de experiencia en el área Industrial, liderando proyectos y equipos de trabajo, soy testigo y un actor en la integración de las nuevas tecnologías en cada ámbito de trabajo, con una constante formación y aprendizaje que me permite ofrecer soluciones actualizadas y de alta calidad</p>
+          <p className="mb-4 text-justify text-blue-500">Tengo 30 años de experiencia en el área Industrial, liderando proyectos y equipos de trabajo, he sido parte de importantes cambios tecnologícos en distintas áreas de mi trabajo, con una constante formación y aprendizaje, lo cual me permite ofrecer soluciones actualizadas y de alta calidad</p>
 
           <div className="lg:mb-14 mb-20">
           <DownloadButton />
