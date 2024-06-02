@@ -49,10 +49,10 @@ const ContactInfo = () => {
 
       <div className="flex justify-center mt-4 mb-4 gap-10">
         <Link href={contact.github} className="text-blue-500 hover:text-blue-700 mx-2" target="_blank" rel="noopener noreferrer">
-        <Image src="/image/lkd.png" alt="LinkedIn Icon" width={50} height={50} className="transform transition-transform duration-500 ease-in-out hover:scale-110"/>
+        <Image src="/image/git2.png" alt="Github Icon" width={50} height={50} className="transform transition-transform duration-500 ease-in-out hover:scale-110"/>
         </Link>
         <Link href={contact.linkedin} className="text-blue-500 hover:text-blue-700 mx-2" target="_blank" rel="noopener noreferrer">
-        <Image src="/image/git2.png" alt="Github Icon" width={50} height={50} className="transform transition-transform duration-500 ease-in-out hover:scale-110"/>
+        <Image src="/image/lkd.png" alt="LinkedIn Icon" width={50} height={50} className="transform transition-transform duration-500 ease-in-out hover:scale-110"/>
         </Link>
       </div>
     </div>
