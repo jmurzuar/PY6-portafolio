@@ -32,7 +32,7 @@ const BackgroundPage = () => {
   return (
     <div className="relative h-screen">
       {/* Background image */}
-      <div className="absolute inset-0 -mr-72 sm:-m-0">
+      <div className="absolute inset-0">
         <Image
           src="/image/quiensoy3.jpg"
           alt="Background"
