@@ -26,7 +26,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-3xl font-bold mb-4">Información de Contacto</h1>
+        <h1 className="text-center text-3xl font-bold mt-24 text-blue-500">Información de Contacto</h1>
         <ContactInfo />
       </main>
     </div>

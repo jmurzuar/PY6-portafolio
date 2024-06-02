@@ -32,7 +32,7 @@ const BackgroundPage = () => {
   return (
     <div className="relative h-screen">
       {/* Background image */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 -mr-72 sm:-m-0">
         <Image
           src="/image/quiensoy3.jpg"
           alt="Background"
@@ -44,7 +44,7 @@ const BackgroundPage = () => {
       </div>
 
       {/* Text content */}
-      <div className="relative z-10 flex items-end h-full justify-left pb-24 pl-5 pr-5 lg:pb-10 lg:justify-left lg:items-center lg:pl-10">
+      <div className="relative z-10 flex items-end h-full justify-left pb-32 pl-5 pr-5 lg:pb-10 lg:justify-left lg:items-center lg:pl-10">
         <div className="bg-gray-700 bg-opacity-75 text-white p-8 rounded-lg">
           <h1 className="text-4xl font-bold">Un Profesional para tu Proyecto</h1>
           <p className="hidden lg:block mt-4">
